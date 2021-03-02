@@ -78,7 +78,7 @@ if(gamestate=="play"){
                          
                           s=s+Math.round(frameCount/60)  
                  if(g.x<0) {
-                          g.x=800   
+                          g.x=windowWidth   
                            }
    
   if(s%1000==0) {
